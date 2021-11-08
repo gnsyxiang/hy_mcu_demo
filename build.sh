@@ -52,7 +52,7 @@ _ldflag_com="${_ldflag_com} -L${lib_3rd_path}/lib"
 target_path=`pwd`
 prefix_path=${lib_3rd_path}
 
-cd ${target_path} && ./autogen.sh && cd -
+cd ${target_path} && ./autogen.sh ${cross_gcc_path} && cd - >/dev/null 2>&1
 
 if [ $# = 2 ]; then
     mkdir -p $2/${vender}

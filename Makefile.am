@@ -21,8 +21,6 @@
 include res/doxygen.am
 
 SUBDIRS = \
-          include   \
-          src       \
           doc       \
           example   \
           res

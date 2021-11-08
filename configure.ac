@@ -45,10 +45,7 @@ AC_PROG_MKDIR_P
 # Checks for library functions.
 
 AC_CONFIG_FILES([Makefile
-                 $project_name.pc
                  doc/Makefile
                  example/Makefile
-                 include/Makefile
-                 res/Makefile
-                 src/Makefile])
+                 res/Makefile])
 AC_OUTPUT
